@@ -1,0 +1,38 @@
+$layerColor: rgb(100, 150, 100)
+$layerSize: 100%
+
+
+body, html	
+	margin: 0
+	padding: 0
+
+#sceneContainer
+	position: absolute
+	width: 80%
+	height: 80%
+	top: 0
+	left: 0
+	background-color: rgba($layerColor, 0.1)
+	overflow: hidden
+	margin: 9%
+
+.layer 
+	position: absolute
+	background-color: rgba($layerColor, 0.05 )
+	width: $layerSize
+	height: $layerSize
+	border: solid 1px $layerColor
+	text-align: center
+	font-size: 32px
+	margin: 0%
+
+.layer p 
+	margin-top: 50%
+	
+
+.layer .elem 
+	background-color: rgba($layerColor, 0.1)
+	position: absolute
+	bottom: 0
+	width: 100px
+	height: 100px
