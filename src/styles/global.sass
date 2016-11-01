@@ -1,5 +1,5 @@
 $layerColor: rgb(100, 150, 100)
-$layerSize: 100%
+$layerSize: 120%
 
 
 body, html	
@@ -8,26 +8,29 @@ body, html
 
 #sceneContainer
 	position: absolute
-	width: 80%
-	height: 80%
+	width: 1000px
+	height: 650px
 	top: 0
 	left: 0
 	background-color: rgba($layerColor, 0.1)
 	overflow: hidden
-	margin: 9%
+	margin: 0
 
 .layer 
 	position: absolute
-	background-color: rgba($layerColor, 0.05 )
+	/* background-color: rgba($layerColor, 0.05 ) */
 	width: $layerSize
 	height: $layerSize
-	border: solid 1px $layerColor
-	text-align: center
-	font-size: 32px
+	/* border: solid 1px $layerColor */
 	margin: 0%
 
-.layer p 
-	margin-top: 50%
+.layer img 
+	width: $layerSize
+	margin: -10%
+
+.layer p, 
+.layer h2 
+	margin-left: 700px
 	
 
 .layer .elem 

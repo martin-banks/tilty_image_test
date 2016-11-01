@@ -13,6 +13,14 @@
 		Notes: 
 		https://github.com/wagerfield/parallax
 		*/
+		invertX: false,
+		clipRelativeInput: true,
+		calibrateX: true,
+		calibrateY: true,
+		limitX: 50,
+		limitY: 50,
+		frictionX: 0.4,
+		frictionY: 0.4,
 	})
 
 
